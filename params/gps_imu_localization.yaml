@@ -21,7 +21,7 @@ odom0_config: [true, true, false,
 odom0_differential: false
 odom0_relative: false
 odom0_nodelay: true
-odom0_queue_size: 2
+odom0_queue_size: 10
 
 imu0: /imu
 imu0_config: [false, false, false,
