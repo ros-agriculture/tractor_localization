@@ -1,7 +1,7 @@
 # GPS and IMU Localization
 # 
 # https://answers.ros.org/question/269631/robot_localization-gps-and-imu-minimal-example-not-working/
-# 
+# Tutorial from The Construct https://www.youtube.com/watch?v=nQZeAafDEJE
 # 
 
 frequency: 30
