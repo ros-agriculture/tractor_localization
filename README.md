@@ -6,13 +6,13 @@ Robot_Localization with GPS and IMU
 # Install dependencies
 # GPS
 
-sudo apt-get install -y ros-kinetic-nmea-comms
-sudo apt-get install -y ros-kinetic-nmea-msgs
-sudo apt-get install -y ros-kinetic-nmea-navsat-driver
-sudo apt-get install -y ros-kinetic-geographic-info
-sudo apt-get install -y ros-kinetic-geographic-msgs 
-sudo apt-get install -y ros-kinetic-unique-id
-sudo apt-get install -y ros-kinetic-unique-identifier
+sudo apt-get install -y ros-kinetic-nmea-comms \
+ ros-kinetic-nmea-msgs \
+ ros-kinetic-nmea-navsat-driver \
+ ros-kinetic-geographic-info \
+ ros-kinetic-geographic-msgs \
+ ros-kinetic-unique-id \
+ ros-kinetic-unique-identifier
 
 
 # Razor IMU
