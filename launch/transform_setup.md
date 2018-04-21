@@ -24,9 +24,9 @@ Please refer to the ROS documentation for standard measurements:
   http://www.ros.org/reps/rep-0103.html 
   
   Example for your launch file:
-  <code>
+  ``` XML
       <node pkg="tf" type="static_transform_publisher" 
         name="base_link_transform" 
         args="0 0 0 0 0 0 base_link odom 10" />
-  </code>
+  ```
   These are the measurements in meters for your sensors (x y z yaw pitch roll)  x forward y left z up  
