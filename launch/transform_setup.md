@@ -1,6 +1,8 @@
 
 
-To setup the transforms in the launch file we used these measurements:
+Reference material for setting up transforms for your robot.
+
+http://www.ros.org/reps/rep-0105.html - Coordinate Frames for Mobile Platforms
 
 An example of the different TF's on your robot:
 http://wiki.ros.org/hector_slam/Tutorials/SettingUpForYourRobot#Overview
