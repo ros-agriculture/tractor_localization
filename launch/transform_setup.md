@@ -28,4 +28,4 @@ Please refer to the ROS documentation for standard measurements:
         name="base_link_transform" 
         args="0 0 0 0 0 0 base_link odom 10" />
   ```
-  These are the measurements in meters for your sensors (x y z yaw pitch roll)  x forward y left z up  
+  These are the measurements in **meters** for your sensors (x y z yaw pitch roll)  x forward y left z up  
