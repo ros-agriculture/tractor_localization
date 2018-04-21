@@ -23,7 +23,7 @@ http://wiki.ros.org/tf#static_transform_publisher
 Please refer to the ROS documentation for standard measurements: 
   http://www.ros.org/reps/rep-0103.html 
   
-  Example for your launch file:
+  Example for your launch file.  Base link to Odom published at 10 hz:
   ``` XML
       <node pkg="tf" type="static_transform_publisher" 
         name="base_link_transform" 
