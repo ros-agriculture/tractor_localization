@@ -10,14 +10,14 @@ http://wiki.ros.org/hector_slam/Tutorials/SettingUpForYourRobot#Overview
 
 We use the center of rotation for the base_link position.  This is for Ackermann style vehicles:
 
-  http://docs.ros.org/api/ackermann_msgs/html/msg/AckermannDrive.html
-  All are measured at the vehicle's
-  center of rotation, typically the center of the rear axle. The
-  controller tries not to exceed these limits in either direction, but
-  sometimes it might.
+  > http://docs.ros.org/api/ackermann_msgs/html/msg/AckermannDrive.html
+  > All are measured at the vehicle's
+  > center of rotation, typically the center of the rear axle. The
+  > controller tries not to exceed these limits in either direction, but
+  > sometimes it might.
   
-  Discussion
-  https://discourse.ros.org/t/tractobots-my-attempts-at-field-robots/1486/17
+  > ROS Discourse
+  > https://discourse.ros.org/t/tractobots-my-attempts-at-field-robots/1486/17
 
 The Static Transform Publisher node is used to publish the measurements:
 http://wiki.ros.org/tf#static_transform_publisher
