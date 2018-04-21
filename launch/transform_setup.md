@@ -13,9 +13,7 @@ We use the center of rotation for the base_link position.  This is for Ackermann
   > http://docs.ros.org/api/ackermann_msgs/html/msg/AckermannDrive.html
   >
   > All are measured at the vehicle's
-  > center of rotation, typically the center of the rear axle. The
-  > controller tries not to exceed these limits in either direction, but
-  > sometimes it might.
+  > center of rotation, **typically the center of the rear axle**.
   
 
 The Static Transform Publisher node is used to publish the measurements:
