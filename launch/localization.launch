@@ -16,7 +16,7 @@
 
 <node pkg="tf" type="static_transform_publisher"
 	name="gps_transform"
-	args="0 0 00 0 0 0 base_link gps 10" />
+	args="0 0 0 0 0 0 base_link gps 10" />
 <node pkg="tf" type="static_transform_publisher"
 	name="imu_transform"
 	args="0 0 0 0 0 0 base_link base_imu_link 10" />
