@@ -18,8 +18,8 @@
 	name="gps_transform"
 	args="0 0 0 0 0 0 base_link gps 10" />
 <node pkg="tf" type="static_transform_publisher"
-	name="imu_transform"
-	args="0 0 0 0 0 0 base_link base_imu_link 10" />
+                name="imu_transform"
+                args="0 0 0 3.1416 -1.5708 0 base_link base_imu_link 10" />
 	
 <!-- Navsat Transform -->
   <node pkg="robot_localization" type="navsat_transform_node" name="navsat_transform_node" respawn="true" clear_params="true">
