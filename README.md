@@ -1,4 +1,8 @@
 <pre>
+A tutorial for sensor fusion using the robot_localization package! (With explanations of the pre-requisite concepts!)
+Author: github.com/methylDragon
+https://github.com/methylDragon/ros-sensor-fusion-tutorial
+
 
 # tractor_localization
 Robot_Localization with GPS and IMU
